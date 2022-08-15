@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 96%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-image: url('/header\ plain.png');
+  font-family: 'GFS Didot', serif;
+}
+
+.logo img {
+  width: 240px;
+}
+
+.nav-links {
+  color: hsl(0, 0%, 10%);
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.about-us-article {
+  text-align: center;
+}
+
+.white-polo {
+  width: 160px;
+  margin-top: 4px;
+  position: relative;
+}
+
+.white-polo img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.white-polo-thumbnail-1 {
+  width: 160px;
+}
+
+.white-polo-thumnail-2 {
+  width: 160px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.white-polo-thumnail-2:hover {
+  opacity: 1;
+}
+
+.BACK-HOME {
+  text-align: center;
+  margin: 10px;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 50px;
+  width: 100%;
+  height: 30px;
+}
+
+.titanez-digital-media {
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.digital-media {
+  color: hsl(0, 100%, 30%);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer {
+  font-size: 12px;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: hsl(0, 0%, 5%)
+}
